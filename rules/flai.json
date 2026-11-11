@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "flaiapp.com",
+        "iapi.flaiapp.com",
+        "flaibutter.com",
+        "iapi.flaibutter.com",
+        "imagedelivery.net",
+        "img.imgcd.com",
+        "img.myimgcdn.com",
+        "im.imgcyn.com",
+        "sendbird.com",
+        "iapi.teametr.com",
+        "tsjiyj-launches.appsflyersdk.com"
+      ]
+    }
+  ]
+}
