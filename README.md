@@ -16,9 +16,9 @@
 ## 引用方式（路由器 sing-box 配置）
 
 ```json
-{ "tag": "rui-ads",   "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/catbreast/sing-box-rules/main/rule-set/rui-ads.srs",   "download_detour": "anyreality-us-bwg" },
-{ "tag": "rui-proxy", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/catbreast/sing-box-rules/main/rule-set/rui-proxy.srs", "download_detour": "anyreality-us-bwg" },
-{ "tag": "rui-direct","type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/catbreast/sing-box-rules/main/rule-set/rui-direct.srs","download_detour": "direct" }
+{ "tag": "rui-ads",   "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/catbreast/sing-box-rules/main/rule-set/rui-ads.srs",    },
+{ "tag": "rui-proxy", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/catbreast/sing-box-rules/main/rule-set/rui-proxy.srs" },
+{ "tag": "rui-direct","type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/catbreast/sing-box-rules/main/rule-set/rui-direct.srs" }
 ```
 
 route 规则中以 `"rule_set": "<名称>"` 引用：rui-ads 用 `"action": "reject"`，rui-proxy route 到 Proxy，rui-direct route 到 direct。规则顺序：rui-ads → rui-proxy → rui-direct，放在既有规则之前或按需调整。
